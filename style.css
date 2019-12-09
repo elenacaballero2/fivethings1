@@ -1,0 +1,276 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-color: #AABBE3;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.logo{
+	width: 40%;
+	margin-left: 10%;
+}
+
+nav {
+	width: 40%;
+	margin-right: 10%;
+	text-align: right;
+}
+nav li {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #f1d0f2;
+	text-decoration: underline;
+	font-size: 20px;
+}
+body{
+	background-color: #BFD2FF;
+}
+
+.big-image{
+	background-image: url(images/img.heic);
+	background-color: #8AE0FF;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	position: relative;
+}
+.text{
+	z-index: 20;
+	position: absolute;
+}
+
+h1{
+	color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 50px;
+	text-align: center;
+}
+
+figure{
+	position: inline-block;
+	padding-top: 300px;
+}
+figcaption{
+	font-size: 3vw;
+}
+.elena{
+	display: flex;
+	width: 50%;
+	padding: 10px;
+	
+}
+.nat{
+	width: 50%;
+	display: flex;
+	padding: 10px;
+	
+}
+.quote{
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	padding-top: 50px;
+	padding-bottom: 200px;
+	z-index: 20; 
+	background-color: #BFD2FF;
+	font-size: 3vw;
+	line-height: 50px;
+}
+h2.quote{
+	font-size: 3vw;
+}
+.two{
+	background-color: #BFD2FF;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding: 50px;
+	margin-right: 50px;
+
+}
+
+
+.container {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	padding:80px;
+	padding-top: 250px;
+	background-color: #BFD2FF;}
+
+
+
+section {
+	width: 50%;
+	padding: 80px;
+}
+.column1{
+	width: 50%;
+	/*padding: 80px;*/
+	padding-right: ;
+	padding-left: 50px;
+	font-size: 2vw;
+	font-family: 'Inconsolata', monospace;
+}
+.column2{
+	width: 50%;
+
+}
+.img2{
+	width: 333px;
+	height: 467px;
+}
+
+.img3{
+	width: 80%;
+}
+.part1{
+	width: 50%;
+	padding: 80px;
+
+}
+.part2{
+	width: 50%;
+	padding: 80px;
+	font-size: 3vw;
+	font-family: 'Inconsolata', monospace;
+}
+
+.quote{
+	background-color: #BFD2FF;
+	height: 15vh;
+	display: relative;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	position: absolute;
+	bottom: -300px;
+
+}
+.thing1{
+	background-color: #BFD2FF;
+	height: 100vh;
+	display: relative;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	padding-top: 50px;
+	padding-bottom: 250px;
+}
+
+.three{
+	background-color: #BFD2FF;
+	height: 100vh;
+	display: relative;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	padding-top: 60px;
+	padding: 80px;
+}
+
+.text{
+	/*z-index: 20;*/
+	padding-bottom: 50px;
+}
+
+.image{
+	z-index: 1;
+	position: absolute;
+	background-color: #BFD2FF;
+
+}
+
+.text h2:hover{
+	background-color: #394E80;
+	color: white;
+}
+
+/*last section*/
+
+.boxes {
+	background-color: #BFD2FF ;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.text_box{
+	color: white;
+	font-size: 4vw;
+	font-weight: 400;
+	padding: 100px;
+	position: absolute;
+	top: 200px;
+}
+.box1 {
+	width: 600px;
+	height: 400px;
+	background-image: url(images/img_Arg.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 50px;
+	left: 200px; 
+	z-index: 46;
+}
+.box2 {
+	width: 600px;
+	height: 400px;
+	background-image: url(images/img_10.jpg);
+	background-size: cover; 
+	background-position: center;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	z-index: 47;
+}
+.box3 {
+	width: 600px;
+	height: 400px;
+	background-image: url(images/img_9.jpg);
+	background-size: cover; 
+	position: absolute;
+	bottom: 20px;
+	right: 50px;
+	z-index: 48;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+	z-index: 8;
+	
+}
+.text_box:hover {
+	position: absolute;
+	z-index: 60;
+	text-shadow: 2px 3px 12px black;
+}
